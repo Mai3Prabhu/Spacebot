@@ -41,17 +41,17 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
 **Create a virtual environment (recommended):**
-
-Bash
 ```
+Bash
+
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 **Install the required dependencies:**
-
-Bash
 ```
+Bash
+
 pip install -r requirements.txt
 ```
 
@@ -70,15 +70,15 @@ Replace your_gemini_api_key_here and your_nasa_api_key_here with your actual key
 Ensure your virtual environment is active.
 
 Run the application from your terminal:
-
-Bash
 ```
+Bash
+
 streamlit run app.py
 ```
 
 Your default web browser will automatically open and display the application.
 
-### Usage
+**Usage**
 Type your question into the chat input field at the bottom of the page.
 
 - To get text-based answers: Ask questions like "What is a black hole?" or "Tell me about the Voyager 1 probe."
@@ -97,7 +97,7 @@ Type your question into the chat input field at the bottom of the page.
 
 - .env: (Hidden) Stores your API keys and other sensitive environment variables.
 
-### Credits
+## Credits
 - Google Gemini API: For powering the conversational AI.
 
 - NASA Image and Video Library API: For providing the stunning visuals of space.
