@@ -1,0 +1,5 @@
+# Exclude the .env file
+.env
+
+# Exclude the Python cache folder
+__pycache__/
